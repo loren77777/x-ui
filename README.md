@@ -9,8 +9,10 @@
 或者你恰巧有购买服务器的需求,可以通过文末的赞助部分支持我~ 
 
 # 文档目录  
-- [功能介绍](#功能介绍)
-- [一键安装](#一键安装)  
+- [X-UI功能介绍](#X-UI功能介绍)
+- [一键安装](#一键安装)
+- [X-UI使用说明](#X-UI使用说明)
+- [问题汇总](#问题汇总)
 
 # X-UI功能介绍
 
@@ -43,6 +45,11 @@ apt install -y curl
 apt install -y socat
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
 ```
+
+# X-UI使用说明
+参考视频：【零基础】2024最新保姆级纯小白节点搭建教程，人人都能学会，目前最简单、最安全、最稳定的专属节点搭建方法，手把手自建节点搭建教学，晚高峰高速稳定，4K秒开的科学上网线路体验
+（https://www.youtube.com/watch?v=SpxTFes1B8U）
+
 # 问题汇总
 1.PING延迟太高，检查nameserve并修改如下
 ```
