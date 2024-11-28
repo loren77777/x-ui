@@ -42,4 +42,15 @@ apt update -y
 apt install -y curl
 apt install -y socat
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
-```    
+```
+# 问题汇总
+1.PING延迟太高，检查nameserve并修改如下
+```
+nano /etc/resolv.conf
+nameserver 8.8.8.8
+nameserver 1.1.1.1
+```
+2.放行端口
+```
+iptables -I INPUT -p tcp --dport 3600 -j ACCEPT
+```
